@@ -27,6 +27,7 @@ function Navbar({ className }: { className?: string }){
        <HoveredLink href="/music-production">Music Production</HoveredLink>
        </div>
        </MenuItem>
+       <Link href={"/contact"}>Contact Us</Link>
          </Menu>
         </div>
     )
