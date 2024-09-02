@@ -21,6 +21,10 @@ function Navbar({ className }: { className?: string }){
        
        <div className="flex flex-col space-y-4 text-sm">
        <HoveredLink href="/courses">All courses</HoveredLink>
+       <HoveredLink href="/basic-music">Basic Music Theory</HoveredLink>
+       <HoveredLink href="/advance-music">Advanced Composition</HoveredLink>
+       <HoveredLink href="/song-writing">Song writing</HoveredLink>
+       <HoveredLink href="/music-production">Music Production</HoveredLink>
        </div>
        </MenuItem>
          </Menu>
