@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Home = () => {
+const page = () => {
   return (
-    <div>
-      Hello
+    <div className='text-center text-3xl font-bold'>
+      TuneAcademy
     </div>
   );
 };
 
-export default Home;
+export default page;
